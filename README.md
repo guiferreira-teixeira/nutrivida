@@ -29,4 +29,5 @@ Basta baixar ou clonar o repositório e abrir o arquivo home.html em qualquer na
 ## Autor
 
 Guilherme Ferreira Alves Teixeira
+
 Estudante de Sistemas de Informação — Universidade Presbiteriana Mackenzie
