@@ -1,0 +1,107 @@
+body {
+            margin:1;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #A3C19F;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-family: cursive;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .icone {
+            display: flex;
+            gap: 15px;
+        }
+        .icone a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+       
+    .footer {
+        background-color: #A3C19F;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer .logo {
+        font-family: cursive;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .icons a {
+        text-decoration: none;
+        color: gray;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+
+    body{
+        background-color: whitesmoke;
+    }
+
+    .enviar, .voltar{
+        background-color: green;
+        border-radius: 10px;
+        height: 30px;
+
+    }
+    .voltar{
+         border-radius: 10px;
+        height: 30px;
+        background-color: rgb(206, 206, 206);
+    }
+    #comentario, #nome, #telefone, #email{
+        border-radius: 10px;
+        height: 30px;
+        border-color: #008000;
+    }
+    
+    #comentario{
+        height: 90px;  
+    }
+    h4,h1{
+        color: #2e6d2e;
+    }
+
+@media (max-width: 768px) {
+    .navbar, .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .icone, .icons {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .formulario {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    input[type="text"], input[type="tel"], textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .enviar, .voltar {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

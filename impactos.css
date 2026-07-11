@@ -1,0 +1,140 @@
+
+  * body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+
+  .navbar {
+    background-color: #69C3E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .icone {
+    display: flex;
+    gap: 15px;
+  }
+
+  .icone a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .icone a:hover {
+    color: #333;
+  }
+
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p, li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid #eee;
+    margin: 20px 0;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .footer {
+    background-color: #A3C19F;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+  }
+
+  .icons a:hover {
+    color: #000;
+  }
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .icone {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 15px;
+    }
+
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 20px;
+    }
+
+    .icone a, .icons a {
+      font-size: 14px;
+    }
+  }
+
+  a:focus, button:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
